@@ -1,10 +1,24 @@
 # Payload Email Test Plugin
 
-A plugin for Payload CMS that allows you to test email functionality directly from the admin panel.
+A example plugin for Payload CMS that allows you to test email functionality directly from the admin panel.
 
-## Installation
+## Building
 
 Currently not on NPM, you can clone this repo.
+
+```bash
+
+git clone https://github.com/marpstar/payload-plugin-email-test.git
+pnpm i
+
+# to build
+pnpm build:all
+
+# to run the dev app
+pnpm dev
+
+
+```
 
 ## Usage
 
