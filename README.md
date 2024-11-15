@@ -2,6 +2,9 @@
 
 A example plugin for Payload CMS that allows you to test email functionality directly from the admin panel.
 
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/f80c0064-7e8d-47d0-8ef3-69c718457837">
+
+
 ## Building
 
 Currently not on NPM, you can clone this repo.
