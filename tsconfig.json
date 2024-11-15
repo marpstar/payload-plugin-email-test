@@ -15,10 +15,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "@payload-config": ["./src/payload.config.ts"],
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"]
 }
