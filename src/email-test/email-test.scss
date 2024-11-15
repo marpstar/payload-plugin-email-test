@@ -1,0 +1,32 @@
+.EmailTestPage {
+  padding: 2rem;
+  max-width: 600px;
+
+  .field-type {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .loading {
+    animation: spin 1s linear infinite;
+    font-size: 12rem;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
