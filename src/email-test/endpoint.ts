@@ -1,16 +1,16 @@
 // https://payloadcms.com/docs/beta/rest-api/overview#custom-endpoints
 
 import { Endpoint } from 'payload'
+import { getDefaultFromAddress } from './email-fn'
 
 export const EmailTestConfigEndpoint: Endpoint = {
   path: '/email-config',
   method: 'get',
   handler: async (req) => {
-    // TODO: get from config or custom settings collection
+    const address = await getDefaultFromAddress(req.payload)
     return Response.json({
       success: true,
-      defaultFromAddress: 'test@test.com',
-      defaultFromName: 'Test',
+      defaultFromAddress: address,
     })
   },
 }
