@@ -15,18 +15,19 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-sqlite": "beta",
-    "@payloadcms/next": "beta",
-    "@payloadcms/payload-cloud": "beta",
-    "@payloadcms/richtext-lexical": "beta",
+    "@payloadcms/db-sqlite": "3.0.2",
+    "@payloadcms/email-nodemailer": "3.0.2",
+    "@payloadcms/next": "3.0.2",
+    "@payloadcms/payload-cloud": "3.0.2",
+    "@payloadcms/richtext-lexical": "3.0.2",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "15.0.0",
-    "payload": "beta",
+    "payload": "3.0.2",
+    "payload-plugin-email-test": "workspace:*",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "sharp": "0.32.6",
-    "payload-plugin-email-test": "workspace:*"
+    "sharp": "0.32.6"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
