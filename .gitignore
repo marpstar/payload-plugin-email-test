@@ -365,3 +365,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,windows,webstorm,sublimetext,visualstudiocode
+dev/plugin-dev-site.db
+dev/plugin-dev-site2.db
