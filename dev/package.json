@@ -18,7 +18,6 @@
     "@payloadcms/db-sqlite": "3.0.2",
     "@payloadcms/email-nodemailer": "3.0.2",
     "@payloadcms/next": "3.0.2",
-    "@payloadcms/payload-cloud": "3.0.2",
     "@payloadcms/richtext-lexical": "3.0.2",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",

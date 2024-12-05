@@ -25,31 +25,24 @@
     "prepack": "pnpm prepublishOnly",
     "prepublishOnly": "pnpm clean && pnpm build && pnpm copyfiles",
     "payload": "payload",
-    "generate": "pnpm -C dev generate:types generate:importmap"
+    "generate": "pnpm -C dev generate:types generate:importmap",
+    "knip": "knip"
   },
   "peerDependencies": {
+    "@payloadcms/next": "3.0.2",
     "@payloadcms/ui": "3.0.2",
-    "next": "15.0.0",
-    "payload": "3.0.2",
-    "react-hook-form": "7.53.1"
-  },
-  "dependencies": {
-    "@payloadcms/next": "3.0.2",
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020"
-  },
-  "devDependencies": {
-    "@payloadcms/eslint-config": "beta",
-    "@payloadcms/next": "3.0.2",
-    "@types/node": "22.7.5",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-    "copyfiles": "^2.4.1",
-    "cross-env": "^7.0.3",
     "next": "15.0.0",
     "payload": "3.0.2",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",
+    "react-hook-form": "7.53.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.5",
+    "copyfiles": "^2.4.1",
+    "knip": "^5.39.2",
+    "payload": "3.0.2",
+    "rimraf": "^6.0.1",
     "typescript": "5.5.3"
   },
   "pnpm": {
