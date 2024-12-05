@@ -31,11 +31,12 @@
   "peerDependencies": {
     "@payloadcms/next": "3.0.2",
     "@payloadcms/ui": "3.0.2",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "next": "15.0.0",
     "payload": "3.0.2",
     "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "react-hook-form": "7.53.1"
+    "react-dom": "19.0.0-rc-65a56d0e-20241020"
   },
   "devDependencies": {
     "@types/node": "22.7.5",
