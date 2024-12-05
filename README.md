@@ -7,7 +7,19 @@ A example plugin for Payload CMS that allows you to test email functionality dir
 
 ## Building
 
-Currently not on NPM, you can clone this repo.
+Install the plugin from NPM:
+
+```bash
+npm install payload-plugin-email-test
+
+# or with yarn
+yarn add payload-plugin-email-test
+
+# or with pnpm
+pnpm add payload-plugin-email-test
+
+```
+
 
 ```bash
 
