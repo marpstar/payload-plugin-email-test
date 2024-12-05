@@ -1,6 +1,6 @@
 {
   "name": "payload-plugin-email-test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage:": "https://sandtoken.com/loadpack",
   "description": "Simple email test plugin for Payload CMS",
   "author": "loadpack@sandtoken.com",
