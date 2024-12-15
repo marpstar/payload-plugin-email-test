@@ -5,7 +5,7 @@ A example plugin for Payload CMS that allows you to test email functionality dir
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/f80c0064-7e8d-47d0-8ef3-69c718457837">
 
 
-## Building
+## Installation
 
 Install the plugin from NPM:
 
@@ -20,6 +20,7 @@ pnpm add payload-plugin-email-test
 
 ```
 
+## Building
 
 ```bash
 
