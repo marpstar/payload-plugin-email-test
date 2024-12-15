@@ -31,12 +31,12 @@
   "peerDependencies": {
     "@payloadcms/next": "^3.0.2",
     "@payloadcms/ui": "^3.0.2",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "next": "^15.0.0",
     "payload": "^3.0.2",
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "22.7.5",
@@ -45,14 +45,6 @@
     "payload": "^3.0.2",
     "rimraf": "^6.0.1",
     "typescript": "5.5.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "npm:types-react@19.0.0-rc.1",
-      "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-      "@payloadcms/ui": "3.0.2",
-      "typescript": "5.5.3"
-    }
   },
   "publishConfig": {
     "main": "./dist/index.js",
